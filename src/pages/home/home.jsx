@@ -79,7 +79,7 @@ export default class Home extends Component {
             <Bar/>
           </Card>
 
-          <Card title='任务' extra={<Icon type="reload"/>} className="home-table-right">
+          {/* <Card title='任务' extra={<Icon type="reload"/>} className="home-table-right">
             <Timeline>
               <Timeline.Item color="green">新版本迭代会</Timeline.Item>
               <Timeline.Item color="green">完成网站设计初版</Timeline.Item>
@@ -93,7 +93,7 @@ export default class Home extends Component {
                 <p>页面排版</p>
               </Timeline.Item>
             </Timeline>
-          </Card>
+          </Card> */}
         </Card>
       </div>
     )
